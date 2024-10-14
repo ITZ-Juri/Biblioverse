@@ -2,6 +2,10 @@
 *{
     margin: 0;
     border: 0;
+
+}
+body{
+    background: url('bgphoto.jpg');
 }
 
 .nav {
@@ -33,7 +37,7 @@
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    
+
 }
 
 .nav li a:hover {
@@ -42,11 +46,8 @@
 
 /* ========================================================= */
 #main {
-    background: url('bgphoto.jpg');
-    background-repeat:  repeat;
-    position:absolute;
     width: 100%;
-    height:max-content;
+    height: 100%;
 }
 
 
