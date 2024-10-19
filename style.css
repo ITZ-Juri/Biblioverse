@@ -5,17 +5,17 @@
 
 }
 body{
-    background: url("images.png");
-    background-repeat: repeat;
-    background-size: cover;
+    background: rgb(96,92,92);
+    background: radial-gradient(circle, rgba(96,92,92,1) 10%, rgba(0,0,0,1) 80%);
 }
+
 
 .nav {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     overflow: hidden;
-    width: 50%;
-    margin-left:25%;
+    width: 45%;
+    margin-left:28%;
     border:2px solid white;
     border-radius:0 0 20px 20px;
     }
@@ -53,9 +53,9 @@ body{
 }
 
 
-/* ========================================================= */
+/* ========================Search bar================================= */
 
-.search-container {
+/* .search-container {
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ body{
     border-radius: 25px;
     padding: 8px 16px;
     width: 400px;
-    margin-left: 38%;
+    margin-left: 35%;
     margin-top: 10%;
     border: 20x solid black;
   }
@@ -89,16 +89,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
+
 /* ========================================================= */
 .bookholder {
     width: 85%;
-    margin: 0 auto;
+    margin: 5% auto;
     padding: 20px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top:2%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 /* Book list */
@@ -117,33 +117,26 @@ body{
 }
 
 .book img {
-    width: 150px;
-    height: 200px;
+    width: 175px;
+    height: 250px;
     border-radius: 4px;
     margin-bottom: 10px;
+    transition:0.5s;
 }
 
 .book h4 {
     font-size: 18px;
-    color: #333;
-}
-
-.btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin: 5px;
-    padding: 10px 15px;
-    font-size: 16px;
-    font-weight: bold;
     color: white;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    transition:0.5s;
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #0a169c;
 }
+
+.book img:hover{
+    width: 225px;
+    height: 300px;
+
+}
+
